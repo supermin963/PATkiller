@@ -10,6 +10,7 @@
 输出格式：
 输出从 n 计算到 1 需要的步数。
 */
+
 #include<cstdio>
 int main()
 {

@@ -8,10 +8,12 @@ int main(){
     }//将数据读入。形式为0-9各多少个
 
     for(int i=1;i<10;i++){
-        if(a[i]) flag =i;
-        printf("%d",flag);
-        a[flag]=a[flag]-1;//找到除0外的第一不为零的数，然后输出撒。别忘了减去
-        break;//找到了就中断！
+        if(a[i]) {
+            flag =i;
+            printf("%d",flag);
+            a[flag]=a[flag]-1;//找到除0外的第一不为零的数，然后输出撒。别忘了减去
+            break;//找到了就中断！
+        }
     }
     
     for(int i=0;i<10;i++){

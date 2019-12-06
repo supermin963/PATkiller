@@ -30,8 +30,8 @@ int main(){
         sort(a,a+4,cmp);
         max=arry2num(a);
         num=max-min;
-        printf("%04d-%04d=%04d\n",max,min,num);
-        if(num==6174)
+        printf("%04d - %04d = %04d\n",max,min,num);
+        if(num==0||num==6174)
             break;
 
     }
